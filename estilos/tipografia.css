@@ -43,6 +43,100 @@ h2 {
 
 p, li, a {
     font-family: 'Open Sans', sans-serif;
+    color: #404040;
 }
 
+p.destaque {
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+}
 
+/*-------------------/*
+/*ELEMENTOS DO HEADER/*
+/*-------------------*/
+
+header div#chamada h1 {
+    color: white;
+    text-shadow: 4px 6px 8px #000;
+}
+
+header div#chamada h4 {
+    font-size: 250%;
+    margin-top: 10px;
+    text-shadow: 4px 6px 8px #000;
+    margin-bottom: 50px;
+}
+
+header div#chamada a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 110%;
+    padding: 20px 80px;
+    border-radius: 100px;
+    background-color: #078c31;
+    background: linear-gradient(rgba(13, 130, 3)10%,rgb(7, 76, 3)100%);
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: 150px;
+    padding: 20px 0;
+}
+
+/*-----------------------/*
+/* SEÇÃO DOMINGO PERFEITO /*
+/*-----------------------*/
+
+div#domingo-perfeito-centro h2::after {
+    display: block;
+    color: #078C31;
+    height: 5px;
+    width: 20%;
+    margin: 10px auto 20px;
+    content: "---";
+}
+
+div.pontos-chave h4 {
+    color: #404040;
+}
+
+div.pontos-chave h4:after {
+    display: block;
+    color: #078C31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: "--";
+}
+
+/*----------------------*/
+/*   SEÇÃO - PIZZA      */
+/*----------------------*/
+
+section#pizza p.destaque {
+    margin-top: 30px;
+    color: white;
+    width: 40%;
+}
+
+section#pizza ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+/*--------------------/*
+/* SEÇÃO - DEPOIMENTOS/*
+/*-------------------*/
+
+section#testemunha p.destaque {
+    margin-top: 30px;
+    width: 40%;
+}
