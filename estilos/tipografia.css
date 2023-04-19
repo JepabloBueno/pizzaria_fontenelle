@@ -139,4 +139,58 @@ section#pizza ul li {
 section#testemunha p.destaque {
     margin-top: 30px;
     width: 40%;
+    background-color: rgba(255, 255, 255, 0.775);
+    border-radius: 80px;
 }
+
+/*----------------------*/
+/*     PLANOS           */
+/*----------------------*/
+
+section#plano-principal h4 {
+    color: #D90404;
+}
+
+section#plano-principal div.planos-top ul {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+
+section#plano-principal div.planos-top ul li {
+    line-height: 2;
+    font-size: 90%;
+}
+
+section#plano-principal div.planos-bottom p {
+    color: white;
+    margin-top: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*----------------------*/
+/*     FOOTER           */
+/*----------------------*/
+
+footer div#info h4 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+footer div#info ul {
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 130px;
+}
+
+footer div#info ul li {
+    line-height: 1.5;
+    color: white;
+}
+
+

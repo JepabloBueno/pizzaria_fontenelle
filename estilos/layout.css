@@ -1,4 +1,15 @@
 /*
+div#teste {
+    background-color: rgb(17, 234, 227);
+    position: fixed;
+    top: 0; left: 0;
+    width: 300px;
+    height: 60px;
+    z-index: 10;
+}
+
+
+
 CORES:
 VERDE ESCURO: #065902
 VERDE CLARO: #078C31
@@ -322,6 +333,159 @@ section#testemunha div#testemunha-centro div#testemunhos ul img {
     margin-bottom: 20px;
     border: 5px solid #F03733;
 }
+
+/*----------------------*/
+/*     TRANSIÇÃO 1      */
+/*----------------------*/
+
+div#transicao-testemunha-plano {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div#transicao-testemunha-plano div#decoracao1 {
+    background-image: url(../_imagens/secao13-tomate-manjericao-alho.jpg);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+    background-position: bottom left;
+}
+
+div#transicao-testemunha-plano div#decoracao2 {
+    background-image: url(../_imagens/secao13-azeite.jpg);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+    background-position: top center;
+}
+
+div#transicao-testemunha-plano div#decoracao3 {
+    background-image: url(../_imagens/secao13-detalhe-tomate.jpg);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 100%;
+    background-position: bottom right;
+}
+
+/*----------------------*/
+/*     PLANOS           */
+/*----------------------*/
+
+section#planos-principal {
+    width: 100%;
+    padding: 40px 0 80px;
+    height: 800px;
+}
+
+div#planos-janela {
+    width: 80%;
+    margin: 30px auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.planos {
+    width: 250px;
+    height: 450px;
+    margin: 80px 30px;
+}
+
+div.planos-top {
+    width: 250px;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #bebebe;
+    background-color: #f7f7f7;
+    text-align: center;
+    box-shadow: 2px 2px 3px #dfdcdc;
+}
+
+div.planos-bottom {
+    width: 250px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #086726 ;
+    background-color: #078c31;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*----------------------*/
+/*     FOOTER          */
+/*----------------------*/
+
+div#transicao-plano-rodape {
+    width: 100%;
+    height: 36px;
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5)), url(../_imagens/secao15-mesa-xadrez-clara.png);
+    background-repeat: repeat-x;
+}
+
+footer {
+    padding-top: 36px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../_imagens/secao15-mesa-xadrez.png);
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-bottom: 10px solid #D90404;
+}
+
+footer div#mapa {
+    width: 35%;
+    height: 390px;
+    background-color: rgba(255,255,255,1);
+    margin-left: 36px;
+    box-shadow: 0 3px 10px #404040;
+}
+
+footer div#info {
+    width: 30%;
+    height: 390px;
+    background-color: #D90404;
+    box-shadow: 0 3px 10px #404040;
+}
+
+footer div#redes-sociais {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+
+footer div#redes-sociais ion-icon {
+    color: white;
+    height: 100%;
+    width: 17.5%;
+}
+
+footer div#redes-sociais ion-icon:hover {
+    color: #ffc61a;
+    cursor: pointer;
+} 
+
+footer div#pizza-rodape-decoracao {
+    width: 200px;
+    height: 390px;
+    background-image: url(../_imagens/secao15-pizza-rodape.png);
+    background-repeat: no-repeat;
+    margin-top: -70px;
+}
+
+
+
+
 
 
 
