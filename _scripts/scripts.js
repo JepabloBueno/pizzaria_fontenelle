@@ -69,3 +69,17 @@ $('ion-icon#instagram').click(function(){
 $('ion-icon#twitter').click(function(){
     window.open("https://twitter.com","_blank")
 })
+
+// CÓDIGOS DE ANIMAÇÃO //
+
+$('section#domingo-perfeito').waypoint(function(direcao){
+    if (direcao == 'down') {
+    console.log('Passou por aqui!');
+    }
+
+    if (direcao == 'up') {
+        console.log('Agora subiu!')
+    }
+}, {
+    offset: '100px;'
+})

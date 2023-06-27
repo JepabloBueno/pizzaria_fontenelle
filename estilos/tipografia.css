@@ -85,6 +85,9 @@ header div#chamada a {
     border-radius: 100px;
     background-color: #078c31;
     background: linear-gradient(rgba(13, 130, 3)10%,rgb(7, 76, 3)100%);
+
+    animation: headerA-moverParaCima;
+    animation-duration: 1.7s;
 }
 
 h4 {
