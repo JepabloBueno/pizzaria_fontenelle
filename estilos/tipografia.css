@@ -130,6 +130,7 @@ section#pizza p.destaque {
     margin-top: 30px;
     color: white;
     width: 40%;
+    opacity: 0;
 }
 
 section#pizza ul li {
