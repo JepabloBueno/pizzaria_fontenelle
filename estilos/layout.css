@@ -356,6 +356,7 @@ div#transicao-testemunha-plano {
 div#transicao-testemunha-plano div#decoracao1 {
     background-image: url(../_imagens/secao13-tomate-manjericao-alho.jpg);
     background-repeat: no-repeat;
+    opacity: 0;
     width: 30%;
     height: 100%;
     background-position: bottom left;
@@ -364,6 +365,7 @@ div#transicao-testemunha-plano div#decoracao1 {
 div#transicao-testemunha-plano div#decoracao2 {
     background-image: url(../_imagens/secao13-azeite.jpg);
     background-repeat: no-repeat;
+    opacity: 0;
     width: 30%;
     height: 100%;
     background-position: top center;
@@ -372,6 +374,7 @@ div#transicao-testemunha-plano div#decoracao2 {
 div#transicao-testemunha-plano div#decoracao3 {
     background-image: url(../_imagens/secao13-detalhe-tomate.jpg);
     background-repeat: no-repeat;
+    opacity: 0;
     width: 30%;
     height: 100%;
     background-position: bottom right;
@@ -411,6 +414,7 @@ div.planos-top {
     background-color: #f7f7f7;
     text-align: center;
     box-shadow: 2px 2px 3px #dfdcdc;
+    opacity: 0;
 }
 
 div.planos-bottom {
@@ -422,6 +426,7 @@ div.planos-bottom {
     background-color: #078c31;
     text-align: center;
     cursor: pointer;
+    opacity: 0;
 }
 
 /*----------------------*/
