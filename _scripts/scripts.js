@@ -143,16 +143,23 @@ $('div#transicao-testemunha-plano').waypoint(function(direcao){
     offset:'700px;'
 })
 
-$('section#planos-principal').waypoint(function(direcao){
+$('div.planos').waypoint(function(direcao){
     if (direcao == 'down') {
-        $('div.planos:eq(0)').addClass('animate__animated animate__fadeInLeft animate__slow');
-        $('div.planos:eq(1)').addClass('animate__animated animate__fadeInUp animate__slow');
-        $('div.planos:eq(2)').addClass('animate__animated animate__fadeInRight animate__slow');
-    } else {
-        $('div.planos:eq(0)').removeClass('animate__animated animate__fadeInLeft animate__slow');
-        $('div.planos:eq(1)').removeClass('animate__animated animate__fadeInUp animate__slow');
-        $('div.planos:eq(2)').removeClass('animate__animated animate__fadeInRight animate__slow');
+        $('div.planos:eq(0)').addClass('animate__animated animate__fadeInLeft');
+        $('div.planos:eq(1)').addClass('animate__animated animate__fadeInUp');
+        $('div.planos:eq(2)').addClass('animate__animated animate__fadeInRight');
     }
 },{
-    offset:'550px;'
+    offset:'450px;'
 })
+
+$('footer').waypoint(function(direcao){
+    if (direcao == 'down') {
+        $('div#mapa').addClass('animate__animated animate__fadeIn');
+        $('div#info').addClass('animate__animated animate__fadeIn');
+        $('div#pizza-rodape-decoracao').addClass('animate__animated animate__fadeIn');
+    }
+},{
+    offset:'650px;'
+})
+
