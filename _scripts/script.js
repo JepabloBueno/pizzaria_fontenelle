@@ -163,3 +163,21 @@ $('footer').waypoint(function(direcao) {
 },{
     offset:'650px;'
 })
+
+$('header h1').waypoint(function(direcao){
+    if (direcao == 'down') {
+        $('nav').addClass('navEstatico');
+        $('nav div').addClass('logoEstatico');
+        $('nav ul').addClass('menuEstatico');
+        $('nav ul li a').addClass('itemEstatico');
+        $('nav ion-icon').addClass('iconeEstatico');
+    } else {
+        $('nav').removeClass('navEstatico');
+        $('nav div').removeClass('logoEstatico');
+        $('nav ul').removeClass('menuEstatico');
+        $('nav ul li a').removeClass('itemEstatico');
+        $('nav ion-icon').removeClass('iconeEstatico');
+    }
+},{
+    offset:'200px;'
+})
