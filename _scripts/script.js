@@ -181,3 +181,25 @@ $('header h1').waypoint(function(direcao){
 },{
     offset:'200px;'
 })
+
+// acoes de navegacao
+
+$('nav div').click(function() {
+    $('html,body').animate({scrollTop:$('header').offset().top},1000);
+})
+
+$('nav ul li:eq(0)').click(function() {
+    $('html,body').animate({scrollTop:$('section#domingo-perfeito').offset().top},1000);
+})
+
+$('nav ul li:eq(1)').click(function() {
+    $('html,body').animate({scrollTop:$('section#pizza').offset().top},1000);
+})
+
+$('nav ul li:eq(2)').click(function() {
+    $('html,body').animate({scrollTop:$('section#testemunha').offset().top},1000);
+})
+
+$('nav ul li:eq(3)').click(function() {
+    $('html,body').animate({scrollTop:$('section#plano-principal').offset().top},1000);
+})
