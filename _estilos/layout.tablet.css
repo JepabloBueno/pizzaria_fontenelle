@@ -1,0 +1,35 @@
+/* TIPOGRAFIA */
+
+p.destaque, sectio#pizza p.destaque, section#testemunha p.destaque {
+    width: 80%;
+}
+
+
+
+/* DOMINGO PERFEITO */
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    display: none;
+}
+
+div#domingo-perfeito-centro {
+    width: 95%;
+}
+
+/* PIZZA */
+
+div#pizza-opcoes-mestre {
+    width: 95%;
+}
+
+/* TESTEMUNHOS */
+
+div#testemunha-esquerda, div#testemunha-direita {
+    display: none;
+}
+
+/* TRANSIÇÃO */
+
+div#transicao-testemunha-plano {
+    display: none;
+}
